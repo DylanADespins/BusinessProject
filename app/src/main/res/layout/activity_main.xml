@@ -35,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="50sp"
         android:layout_below="@+id/description"
-        android:src="@drawable/pagebreakerJPG"
+        android:src="@drawable/pagebreaker"
         />
     <TextView
         android:id="@+id/contact_information"
