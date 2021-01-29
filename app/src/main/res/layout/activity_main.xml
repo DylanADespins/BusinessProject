@@ -6,12 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        />
     <TextView
-        android:id="@+id/happybirthday_textview"
+        android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textSize="28sp"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:text="SSSSSSSSSSSS" />
+
     <TextView
         android:id="@+id/description"
+        />
+    <TextView
+        android:id="@+id/contact_information"
         />
 </RelativeLayout>
