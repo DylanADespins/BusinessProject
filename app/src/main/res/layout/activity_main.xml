@@ -30,12 +30,20 @@
         android:textSize="28sp"
         android:textColor="@android:color/black"
         />
+    <ImageView
+        android:id="@+id/page_breaker"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_below="@+id/description"
+        android:src="@drawable/pagebreakerJPG"
+        />
     <TextView
         android:id="@+id/contact_information"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/description"
-        android:textSize="28sp"
-        android""
+        android:layout_below="@+id/page_breaker"
+        android:textSize="24sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="ddespins03@gmail.com\nBattle Creek, MI"
         />
 </RelativeLayout>
