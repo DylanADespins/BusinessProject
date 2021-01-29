@@ -7,7 +7,11 @@
     tools:context=".MainActivity">
 
     <ImageView
-        />
+        android:id="@+id/Snippet"
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:src="@drawable/leagueoflegends" />
+
     <TextView
         android:id="@+id/title_text"
         android:layout_width="wrap_content"
@@ -15,12 +19,23 @@
         android:textSize="28sp"
         android:textColor="@android:color/black"
         android:padding="10dp"
-        android:text="SSSSSSSSSSSS" />
+        android:text="Dylan Despins Coaching Services" />
 
     <TextView
         android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Snippet"
+        android:text="I want to provide the information I have learned from playing the game over the years to players that are of lower rank than me. This can be done through watching the players game live and outside of game giving them tips and tricks on how to deal with certain things."
+        android:textSize="28sp"
+        android:textColor="@android:color/black"
         />
     <TextView
         android:id="@+id/contact_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:textSize="28sp"
+        android""
         />
 </RelativeLayout>
