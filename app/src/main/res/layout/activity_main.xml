@@ -9,14 +9,14 @@
     <ImageView
         android:id="@+id/Snippet"
         android:layout_width="match_parent"
-        android:layout_height="410dp"
+        android:layout_height="310dp"
         android:src="@drawable/leagueoflegends" />
 
     <TextView
         android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="28sp"
+        android:textSize="24sp"
         android:textColor="@android:color/black"
         android:padding="10dp"
         android:text="Dylan Despins Coaching Services" />
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/Snippet"
         android:text="I want to provide the information I have learned from playing the game over the years to players that are of lower rank than me. This can be done through watching the players game live and outside of game giving them tips and tricks on how to deal with certain things."
-        android:textSize="28sp"
+        android:textSize="20sp"
         android:textColor="@android:color/black"
         />
     <ImageView
@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/page_breaker"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textColor="@android:color/darker_gray"
         android:text="ddespins03@gmail.com\nBattle Creek, MI"
         />
